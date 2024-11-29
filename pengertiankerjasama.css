@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    height: 1280;
+    width: 130;
+    position: fixed;
+}
+
+body{
+    background-color: #d9e8ca;
+}
+
+h1{
+    color: #d0a933;
+        text-align: center; /* Centers the text horizontally */
+}
+
+
+/* kode css navigator */
+ul{
+    list-style: none;
+    background-color: lightgoldenrodyellow;
+    padding: 0px 0px;
+    position: relative;
+    margin: 0px 0px;
+    width: 1280px;
+    height: 60px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: rgb(245, 255, 206);
+}
+.fixed {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.paragraf.box {
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang semi-transparan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1); /* Skala awal */
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out; /* Animasi */
+}
+
+/* kode css dropdown */
+ul li ul.dropdown{
+    background-color: #cadee8;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+
+/* kode css side bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+
+.footer{
+    width: 1280px;
+    position: fixed;
+    bottom: 0;
+}
